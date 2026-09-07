@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="greenping">
+  <defs>
+    <linearGradient id="gpBg" x1="80" y1="48" x2="440" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3DDC97"/>
+      <stop offset="0.5" stop-color="#12B981"/>
+      <stop offset="1" stop-color="#058B60"/>
+    </linearGradient>
+    <radialGradient id="gpSheen" cx="0.32" cy="0.24" r="0.9">
+      <stop stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="120" fill="url(#gpBg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="120" fill="url(#gpSheen)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+    <circle cx="256" cy="256" r="154" stroke-width="20" opacity="0.35"/>
+    <circle cx="256" cy="256" r="104" stroke-width="26" opacity="0.72"/>
+  </g>
+  <circle cx="256" cy="256" r="42" fill="#FFFFFF"/>
+</svg>
