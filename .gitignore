@@ -31,6 +31,10 @@ lerna-debug.log*
 .nova/*
 .idea/*
 
+# Editor / AI artifacts
+.command code
+.freecode
+
 # Project related
 /instances/*
 !/instances/.gitkeep
